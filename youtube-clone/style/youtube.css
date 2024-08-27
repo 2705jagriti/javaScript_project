@@ -1,0 +1,102 @@
+.thumbnail {
+    width: 100%;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+}
+.icons{
+    width: 50px;
+    vertical-align: top;
+    margin-top: 3px;
+
+}
+.info{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.profile-picture{
+    border-radius: 50%;
+    width: 36px;
+    vertical-align: top;
+    margin-top: 5px;
+    
+    
+}
+.video-intro{
+    width: 250px;
+    font-size: 15px;
+    font-weight: 550px;
+    margin: 5px;
+    font-weight: 547;
+}
+.video-author{
+    margin: 3px;
+    font-size:13px;
+    margin-top: 13px;
+    color: gray;
+    ;
+}
+.video-stacks{
+    margin: 3px;
+    font-size:13px;
+    color: gray;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 15px;
+    
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 420px;
+    padding:4px 2px 4px 2px ;
+    border-radius: 2px;
+}
+.video-photo{
+    position: relative;
+}
+.notification-container{
+    position: relative;
+}
+.notification-count{
+    position: absolute;
+    right: -7px;
+    top: 9px;
+    background-color: rgb(203, 6, 6);
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px;
+    padding: 2px 6px 2px 6px ;
+    color: white;
+}
+.sidebar-icon{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+.sidebar-icon:hover{
+    background-color: rgb(226, 225, 225);
+    cursor:  ;
+}
+.sidebar-icon img{
+    height: 24px;
+}
+.sidebar-icon div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 8px;
+}
